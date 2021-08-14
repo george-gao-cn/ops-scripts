@@ -12,7 +12,11 @@ import re
 import redis
 from rediscluster import RedisCluster as RCluster
  
-cluster_nodes = [{"host":"192.168.101.126","port":"6379"},{"host":"192.168.102.22","port":"6379"},{"host":"192.168.101.128","port":"6379"}]
+IP1 = ""
+IP2 = ""
+IP3 = ""
+
+cluster_nodes = [{"host":"IP1","port":"6379"},{"host":"IP2","port":"6379"},{"host":"IP3","port":"6379"}]
 ##cluster_nodes = [{"host":"Redis1.xxxxx.db","port":"7000"},{"host":"Redis1.xxxxx.db","port":"7001"},{"host":"Redis2.xxxxx.db","port":"7002"},
 ##{"host":"Redis2.xxxxx.db","port":"7003"},{"host":"Redis3.xxxxx.db","port":"7004"},{"host":"Redis3.xxxxx.db","port":"7005"}]
 #try:
